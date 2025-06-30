@@ -7,17 +7,17 @@ Requirements
 
 
 Install dependecies :
-Install & Update Packages:
+Install & Update Packages: 
+```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
 
 Create wallet: 
 1. Clone the Repostitory
- git clone https://github.com/0xmoei/wallet-gen.git cd wallet-gen
+ ```bash git clone https://github.com/0xmoei/wallet-gen.git cd wallet-gen
 
 2. Run the wallet generator webserver
-   chmod +x ./start.sh
-./start.sh
+  ```bash chmod +x ./start.sh ./start.sh
 
 3. Open your browser
    - Navigate to http://localhost:8888 on browser
